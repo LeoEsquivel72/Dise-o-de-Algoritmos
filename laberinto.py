@@ -39,7 +39,7 @@ def encuentrasalida(labe,posicion_inicial, salida, salida_encontrada):
                 nuevaposicion=[posicion_inicial[0], posicion_inicial[1]+1]
                 salida_encontrada= encuentrasalida(labe,nuevaposicion, salida, salida_encontrada)
     if salida_encontrada:
-          labe[posicion_inicial[0]][posicion_inicial[1]]=0          
+          labe[posicion_inicial[0]][posicion_inicial[1]]=5          
     return salida_encontrada
 
 
