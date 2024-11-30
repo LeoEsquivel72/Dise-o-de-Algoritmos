@@ -305,6 +305,7 @@ def encuentra_mejorado(Arreglo_poste):
     
 postes_coor=leer_coordenadas("campo.in")
  
-encuentra_mejorado(Arr_postes)
+encuentra_mejorado(postes_coor)
+
 
 
